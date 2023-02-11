@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    margin: 38px 0 0 0;
+}
+
+.img>img {
+    margin-left: 165px;
+}
+
+.button {
+    width: 20%;
+}
+
+.button>button {
+    margin-right: 165px;
+    background: #13183F;
+    border-radius: 28px;
+    height: 56px;
+    width: 167px;
+    border-radius: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+
+}
+
+.section_container {
+    position: relative;
+    top: 0;
+    display: grid;
+    grid-template-columns: 3fr  1fr 2fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+
+.secton-img {
+    top: -100px;
+    position: absolute;
+    right:0 ;
+    max-width: 100%;
+    
+
+}
+
+.secton-img>img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 185px 165px 0;
+}
+
+.text_section>h1 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+
+.text_section>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    width: 66%;
+    margin-top: 29px;
+}
+
+.text_section>button {
+    height: 63px;
+    width: 167px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    border: none;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+
+.row_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 82%;
+    margin-top: 226px;
+    row-gap: 80px;
+}
+
+.row {
+    height: 322px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.active {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+ 
+}
+
+.active > h1 {
+    width: 100%;
+    margin: 64px auto;
+    width: 70%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;;
+}
+
+
+
+
+
+
+
+
+
+/* media screen */
+
+@media screen and(max-width:) {
+    
+}
